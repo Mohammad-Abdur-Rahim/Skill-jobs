@@ -18,10 +18,10 @@ export default function banner() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
-          <button className="bg-red-500 px-6 py-3 rounded-lg hover:bg-red-600 transition font-medium">
+          <button className="bg-red-500 px-6 py-3 rounded-lg hover:bg-red-600 transition font-medium cursor-pointer">
             Discover More
           </button>
-          <button className="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition font-medium">
+          <button className="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition font-medium cursor-pointer">
             Latest Project
           </button>
         </div>

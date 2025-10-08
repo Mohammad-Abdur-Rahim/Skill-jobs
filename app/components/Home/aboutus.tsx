@@ -26,7 +26,7 @@ export default function AboutUs() {
             The majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly believable.
           </p>
-          <button className="bg-red-500 px-8 py-3 rounded-lg hover:bg-red-600 transition font-medium">
+          <button className="bg-red-500 px-8 py-3 rounded-lg hover:bg-red-600 transition font-medium cursor-pointer">
             Get More Info
           </button>
         </div>
