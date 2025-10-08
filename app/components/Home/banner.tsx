@@ -1,8 +1,9 @@
-import heroImg from "public/assets/hero.png"
+import heroImg from "app/assets/hero.png"
+
 export default function banner() {
   return (
     <section
-      className="relative w-11/12 mx-auto rounded-lg mt-10 mb-10 bg-cover bg-center shadow-lg overflow-hidden"
+      className="relative w-10/12 mx-auto rounded-lg mt-10 mb-10 bg-cover bg-center shadow-lg overflow-hidden"
       style={{ backgroundImage: `url(${heroImg})` }}
     >
       {/* Content */}

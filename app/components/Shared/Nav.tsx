@@ -1,17 +1,16 @@
 import { useState } from "react";
 import { FaShoppingBag, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-
+import logo from "app/assets/logo.png"
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-md relative">
+    <nav className=" w-10/12 mx-auto flex  justify-between px-6 py-4 shadow-md relative">
       {/* Logo */}
-      <div className="flex items-center gap-2">
-        <img src="/logo.png" alt="Car Doctor Logo" className="w-10 h-10" />
-        <h1 className="text-xl font-semibold text-gray-800">Car Doctor</h1>
+      <div>
+        <img src= {logo} alt="Car Doctor Logo" className="w-20 h-15" />
       </div>
 
       {/* Desktop Menu */}

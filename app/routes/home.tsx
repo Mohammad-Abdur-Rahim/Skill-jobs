@@ -1,5 +1,6 @@
 import type { Route } from "./+types/home";
 import Banner from "~/components/Home/banner";
+import About from "~/components/Home/aboutus";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -13,6 +14,7 @@ export default function home() {
     <>
      
       <Banner/>
+      <About/>
       
     </>
   );
