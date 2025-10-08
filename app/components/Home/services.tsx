@@ -22,7 +22,7 @@ export default function services() {
         </div>
 
         {/* Card Area ------------- */}
-        <div className="grid grid-cols-3 gap-5 place-items-center pt-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 place-items-center pt-10">
           <div>
             <div className="card w-100 shadow-2xl mt-5 pt-5">
               <figure>

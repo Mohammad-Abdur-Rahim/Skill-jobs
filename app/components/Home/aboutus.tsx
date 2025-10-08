@@ -17,12 +17,12 @@ export default function AboutUs() {
             & of experience <br />
             in this field
           </h1>
-          <p className="text-base md:text-lg mt-15 mb-15 leading-relaxed w-3/5 text-[#737373]">
+          <p className="text-base md:text-lg mt-15 mb-15 leading-relaxed md:w-3/5 text-[#737373]">
             There are many variations of passages of Lorem Ipsum available,
             but the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly believable.
           </p>
-          <p className="text-base md:text-lg mb-15 leading-relaxed w-3/5 text-[#737373]">
+          <p className="text-base md:text-lg mb-15 leading-relaxed md:w-3/5 text-[#737373]">
             The majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly believable.
           </p>
