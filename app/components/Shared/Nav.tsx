@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaShoppingBag, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
+
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
