@@ -18,7 +18,7 @@ export default function services() {
             Our Service Area
           </h1>
           <p className="text-base md:text-lg mt-5 leading-relaxed  text-[#737373] w-4/6 mx-auto">
-            the majority have suffered alteration in some form, by injected
+            The majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly
             believable.
           </p>
