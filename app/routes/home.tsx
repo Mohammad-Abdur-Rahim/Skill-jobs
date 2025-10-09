@@ -3,6 +3,7 @@ import Banner from "~/components/Home/banner";
 import About from "~/components/Home/aboutus";
 import Services from "~/components/Home/services";
 import Products from "~/components/Home/products";
+import Team from "~/components/Home/team"
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -19,6 +20,7 @@ export default function home() {
       <About/>
       <Services/>
       <Products/>
+      <Team/>
       
     </>
   );
