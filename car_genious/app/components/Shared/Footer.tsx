@@ -1,52 +1,51 @@
-
 import { FaGoogle, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import f_logo from "app/assets/f_logo.png";
+
 export default function Footer() {
   return (
-    <>
-  <footer className="bg-[#1c1c1c] text-gray-300 py-12 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 text-sm">
+    <footer className="bg-[#1c1c1c] text-gray-300 py-10 px-6 md:px-12">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 place-items-center gap-10 text-sm">
         {/* Logo & Description */}
-        <div>
-          <div className="flex items-center gap-2 mb-4">
-            <img src="/logo.png" alt="Car Doctor Logo" className="w-10 h-10" />
-            <h2 className="text-lg font-semibold text-white">Car Doctor</h2>
+        <div className="text-center sm:text-left">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3 mb-4">
+            <img src={f_logo} alt="Car Doctor Logo" className="w-20 h-20" />
           </div>
-          <p className="mb-6 leading-relaxed">
+          <p className="mb-6 text-gray-400">
             Edwin Diaz is a software and web technologies engineer, a life coach
             trainer who is also a serial.
           </p>
 
           {/* Social Icons */}
-          <div className="flex items-center gap-4">
+          <div className="flex justify-center sm:justify-start items-center gap-4">
             <a
               href="#"
-              className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-700 hover:bg-orange-500 transition"
+              className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-700 hover:bg-orange-500 transition"
             >
-              <FaGoogle />
+              <FaGoogle className="text-lg" />
             </a>
             <a
               href="#"
-              className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-700 hover:bg-orange-500 transition"
+              className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-700 hover:bg-orange-500 transition"
             >
-              <FaTwitter />
+              <FaTwitter className="text-lg" />
             </a>
             <a
               href="#"
-              className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-700 hover:bg-orange-500 transition"
+              className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-700 hover:bg-orange-500 transition"
             >
-              <FaInstagram />
+              <FaInstagram className="text-lg" />
             </a>
             <a
               href="#"
-              className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-700 hover:bg-orange-500 transition"
+              className="w-9 h-9 flex items-center justify-center rounded-full bg-gray-700 hover:bg-orange-500 transition"
             >
-              <FaLinkedin />
+              <FaLinkedin className="text-lg" />
             </a>
           </div>
         </div>
 
         {/* About */}
-        <div>
+        <div className="text-center sm:text-left">
           <h3 className="text-white font-semibold mb-4 text-lg">About</h3>
           <ul className="space-y-2">
             <li className="hover:text-orange-500 cursor-pointer">Home</li>
@@ -56,18 +55,21 @@ export default function Footer() {
         </div>
 
         {/* Company */}
-        <div>
+        <div className="text-center sm:text-left">
           <h3 className="text-white font-semibold mb-4 text-lg">Company</h3>
           <ul className="space-y-2">
             <li className="hover:text-orange-500 cursor-pointer">
               Why Car Doctor
             </li>
             <li className="hover:text-orange-500 cursor-pointer">About</li>
+            <li className="hover:text-orange-500 cursor-pointer">
+              Privacy Policy
+            </li>
           </ul>
         </div>
 
         {/* Support */}
-        <div>
+        <div className="text-center sm:text-left">
           <h3 className="text-white font-semibold mb-4 text-lg">Support</h3>
           <ul className="space-y-2">
             <li className="hover:text-orange-500 cursor-pointer">
@@ -82,10 +84,9 @@ export default function Footer() {
       </div>
 
       {/* Footer Bottom */}
-      <div className="text-center text-sm text-gray-500 mt-10 border-t border-gray-700 pt-6">
+      <div className="text-center text-xs sm:text-sm text-gray-300 mt-10 border-t border-gray-700 pt-6">
         © {new Date().getFullYear()} Car Doctor. All rights reserved.
       </div>
     </footer>
-    </>
   );
 }
