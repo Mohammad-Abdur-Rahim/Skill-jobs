@@ -8,7 +8,7 @@ export default function chooseUs() {
   return (
     <>
      <section className="w-9/12 mx-auto py-20 ">
-        <div className="text-center">
+        <div className=" text-center mb-10">
           <h3 className="text-[#FF3811] mb-2 font-bold text-2xl">Core Features</h3>
           <h1 className="text-4xl md:text-6xl font-bold  leading md:leading-tight text-[#151515]">
             Why Choose Us
@@ -19,40 +19,38 @@ export default function chooseUs() {
             believable.
           </p>
         </div>
-        <div className="grid md:grid-cols-6 justify-center items-center">
-            <div className="border p-10">
-                <img src={Team} alt="Team">
-                </img>
-                     <h2 className="font-bold text-[#151515] ">Expert Team</h2>
-            </div>
-            <div className="border p-10">
-                <img src={Time} alt="w">
-                </img>
-                     <h2 className="font-bold text-[#151515] ">Expert Team</h2>
-            </div>
-            <div className="border p-10">
-                <img src={Support} alt="support">
-                </img>
-                     <h2 className="font-bold text-[#151515] ">Expert Team</h2>
-            </div>
-            <div className="border p-10">
-                <img src={Equipment} alt="Team">
-                </img>
-                     <h2 className="font-bold text-[#151515] ">Expert Team</h2>
-            </div>
-            <div className="border p-10">
-                <img src={Guranty} alt="Team">
-                </img>
-                     <h2 className="font-bold text-[#151515] ">Expert Team</h2>
-            </div>
-            <div className="border p-10">
-                <img src={Time} alt="Team">
-                </img>
-                     <h2 className="font-bold text-[#151515] ">Expert Team</h2>
-            </div>
-            
-            
-        </div>
+        <div className="grid md:grid-cols-6 place-items-center gap-5">
+  <div className="border border-gray-300 p-10 rounded-lg flex flex-col items-center text-center">
+    <img src={Team} alt="Team" className="mb-2" />
+    <h2 className="font-bold text-[#151515] text-base w-full">Expert Team</h2>
+  </div>
+
+  <div className="border border-gray-300 p-10 rounded-lg bg-[#FF3811] flex flex-col items-center text-center">
+    <img src={Watch} alt="Watch" className="mb-2" />
+    <h2 className="font-bold text-white">Expert Team</h2>
+  </div>
+
+  <div className="border border-gray-300 p-10 rounded-lg flex flex-col items-center text-center">
+    <img src={Support} alt="Support" className="mb-2" />
+    <h2 className="font-bold text-[#151515]">Expert Team</h2>
+  </div>
+
+  <div className="border border-gray-300 p-10 rounded-lg flex flex-col items-center text-center">
+    <img src={Equipment} alt="Equipment" className="mb-2" />
+    <h2 className="font-bold text-[#151515]">Expert Team</h2>
+  </div>
+
+  <div className="border border-gray-300 p-10 rounded-lg flex flex-col items-center text-center">
+    <img src={Guranty} alt="Guranty" className="mb-2" />
+    <h2 className="font-bold text-[#151515]">Expert Team</h2>
+  </div>
+
+  <div className="border border-gray-300 p-10 rounded-lg flex flex-col items-center text-center">
+    <img src={Time} alt="Time" className="mb-2" />
+    <h2 className="font-bold text-[#151515]">Expert Team</h2>
+  </div>
+</div>
+
      </section>
     </>
   );
