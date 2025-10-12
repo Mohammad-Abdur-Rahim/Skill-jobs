@@ -5,6 +5,7 @@ import Services from "~/components/Home/services";
 import Products from "~/components/Home/products";
 import Team from "~/components/Home/team"
 import Choose from "~/components/Home/chooseUs";
+import Testimonial from "~/components/Home/testimonial";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -23,6 +24,7 @@ export default function home() {
       <Products/>
       <Team/>
       <Choose/>
+      <Testimonial/>
       
     </>
   );
